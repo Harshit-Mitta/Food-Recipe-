@@ -1,0 +1,38 @@
+.itemContainer{
+    width:300px;
+    margin:20px;
+    box-shadow: 0px 4px 6px rgba(0,0,0.1);
+    overflow:hidden;
+    font-family:'Lucida Sans','sans-serif' ;
+    border-radius: 8px;
+}
+.itemImage{
+    max-width:100%;
+    height:auto;
+}
+.itemContent{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.itemName{
+    font-size:1em;
+    font-weight:600;
+    color:#343e49;
+}
+.itemButton{
+    background-color: green;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    padding:10px;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:600;
+}
+.buttonContainer{
+  display:flex;
+  margin-bottom:20px;
+  text-align: center;
+  justify-content: space-around;
+}
