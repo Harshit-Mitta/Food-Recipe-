@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react'
 import styles from './search.module.css'
-const URL='https://api.spoonacular.com/recipes/complexSearch';
-const API_KEY='516c7c864e664acc954974e048ac46aa';
+const URL='enter the url from spoonacular api complex search';
+const API_KEY='Enter your api here from postman';
 export default function Search({foodData,setFood}){
     const [query,setQuery] = useState("pizza");
     useEffect(()=>{
