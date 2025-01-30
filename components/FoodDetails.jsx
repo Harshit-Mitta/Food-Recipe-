@@ -4,8 +4,8 @@ import ItemList from './ItemList'
 export default function FoodDetails({foodId}){
    const[food,setFood]=useState({});
    const[isLoading,setLoading]=useState(true);
-   const URL= `https://api.spoonacular.com/recipes/${foodId}/information`;
-   const API_KEY='516c7c864e664acc954974e048ac46aa';
+   const URL= `enter the api of information from spoonacular api`;
+   const API_KEY='enter the same api used in search.jsx';
    useEffect(()=>{
         async function fetchFood() {
             const res =  await fetch(`${URL}?apiKey=${API_KEY}`);
